@@ -1,0 +1,10 @@
+--- dwm.c	2022-10-04 23:08:18.000000000 +0530
++++ dwm.c	2023-06-02 04:47:33.902153058 +0530
+@@ -214,6 +222,7 @@
+ static void seturgent(Client *c, int urg);
+ static void showhide(Client *c);
+ static void sigchld(int unused);
++static void sigdwmblocks(const Arg *arg);
+ static void spawn(const Arg *arg);
+ static void tag(const Arg *arg);
+ static void tagmon(const Arg *arg);
