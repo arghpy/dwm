@@ -91,7 +91,7 @@ static const Layout layouts[] = {
 /* commands */
 static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", col_BlackGreen, "-nf", col_white2, "-sb", col_black, "-sf", col_white2, NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *firefox[]  = { "/usr/bin/firefox-bin", NULL};
+static const char *firefox[]  = { "/usr/bin/firefox", NULL};
 /*static const char *lynx[]  = { "/home/arghpy/.local/bin/dwm_scripts/start_lynx", NULL};*/
 static const char *thunar[]  = { "/usr/bin/thunar", NULL};
 /*static const char *lf[]  = { "/home/arghpy/.local/bin/dwm_scripts/start_lf", NULL};*/
